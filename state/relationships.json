@@ -1,0 +1,149 @@
+{
+  "state_id": "relationships",
+  "schema": "relationships_v2",
+  "project_slug": "akira-academy-prequel",
+  "scale": {
+    "affection": "0-100",
+    "trust": "0-100",
+    "tension": "0-100",
+    "jealousy": "0-100",
+    "respect": "0-100",
+    "curiosity": "0-100",
+    "resentment": "0-100"
+  },
+  "rules": [
+    "Отношения растут постепенно и только после сцен.",
+    "Скрытая связь Акиры и Райдена не является осознанным знанием персонажей.",
+    "Если персонаж не присутствовал в сцене и ему никто не рассказал, отношения/знание по этой сцене не обновлять."
+  ],
+  "relationships": {
+    "char_akira__char_livia": {
+      "participants": [
+        "char_akira",
+        "char_livia"
+      ],
+      "affection": 18,
+      "trust": 14,
+      "tension": 0,
+      "jealousy": 0,
+      "respect": 8,
+      "curiosity": 8,
+      "resentment": 0,
+      "status": "старые школьные подруги; держатся рядом на старте Академии",
+      "notes": [
+        "Ливия знает бытовые привычки Акиры и границу с волосами."
+      ],
+      "behavior_next": [
+        "Ливия может действовать самостоятельно и не быть удобной спутницей."
+      ]
+    },
+    "char_akira__char_kir": {
+      "participants": [
+        "char_akira",
+        "char_kir"
+      ],
+      "affection": 8,
+      "trust": 8,
+      "tension": 8,
+      "jealousy": 0,
+      "respect": 8,
+      "curiosity": 8,
+      "resentment": 0,
+      "status": "старые знакомые; Кир может провоцировать настоящие границы",
+      "notes": []
+    },
+    "char_livia__char_kir": {
+      "participants": [
+        "char_livia",
+        "char_kir"
+      ],
+      "affection": 6,
+      "trust": 6,
+      "tension": 10,
+      "jealousy": 0,
+      "respect": 6,
+      "curiosity": 12,
+      "resentment": 0,
+      "status": "старые знакомые; Кир видит маски Ливии",
+      "notes": []
+    },
+    "char_akira__char_haru": {
+      "participants": [
+        "char_akira",
+        "char_haru"
+      ],
+      "affection": 0,
+      "trust": 0,
+      "tension": 0,
+      "jealousy": 0,
+      "respect": 0,
+      "curiosity": 0,
+      "resentment": 0,
+      "status": "ещё не познакомились в текущем состоянии",
+      "notes": []
+    },
+    "char_akira__char_raiden": {
+      "participants": [
+        "char_akira",
+        "char_raiden"
+      ],
+      "affection": 0,
+      "trust": 0,
+      "tension": 0,
+      "jealousy": 0,
+      "respect": 0,
+      "curiosity": 0,
+      "resentment": 0,
+      "hidden_bond": "absolute_hidden_lore_not_conscious",
+      "status": "ещё не знакомы осознанно",
+      "notes": [
+        "Скрытая связь существует только как hidden lore."
+      ]
+    },
+    "char_livia__char_kiara": {
+      "participants": [
+        "char_livia",
+        "char_kiara"
+      ],
+      "affection": 0,
+      "trust": 0,
+      "tension": 8,
+      "jealousy": 0,
+      "respect": 0,
+      "curiosity": 10,
+      "resentment": 0,
+      "status": "будущая социальная соперница; ещё не столкнулись напрямую",
+      "notes": []
+    },
+    "char_kiara__char_raiden": {
+      "participants": [
+        "char_kiara",
+        "char_raiden"
+      ],
+      "affection": 0,
+      "trust": 0,
+      "tension": 0,
+      "jealousy": 0,
+      "respect": 0,
+      "curiosity": 0,
+      "resentment": 0,
+      "status": "одна социальная орбита Академии; детали уточнять сценами",
+      "notes": []
+    },
+    "char_haru__char_raiden": {
+      "participants": [
+        "char_haru",
+        "char_raiden"
+      ],
+      "affection": 10,
+      "trust": 10,
+      "tension": 8,
+      "jealousy": 0,
+      "respect": 12,
+      "curiosity": 6,
+      "resentment": 0,
+      "status": "друзья; могут спорить и цепляться, не разрушая дружбу",
+      "notes": []
+    }
+  }
+}
